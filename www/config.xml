@@ -6,7 +6,7 @@
         id        = "com.cemm.GPSTutorial"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>GPS Tutorial</name>
 
     <description>
         GPS sample application 
