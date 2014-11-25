@@ -55,6 +55,12 @@ function onDeviceReady() {
     function displayLatLong(pos) {
         $('.lat-view').html(pos.coords.latitude);
         $('.long-view').html(pos.coords.longitude);
+
+        var latlon = pos.coords.latitude + "," + pos.coords.longitude;
+
+        var img_url = "http://maps.googleapis.com/maps/api/staticmap?center="
+            +latlon+"&zoom=14&size=400x300&sensor=false";
+            document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
     }
 
     $('#getIt').click(function() {
