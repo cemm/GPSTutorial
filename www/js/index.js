@@ -70,8 +70,8 @@ function onDeviceReady() {
     navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
     }
     
-//    var map = new google.maps.Map(document.getElementById("mapholder"), myOptions);
-//    var marker = new google.maps.Marker({position:latlon,map:map,title:"You are here!"});        
+    var map = new google.maps.Map(document.getElementById("mapholder"), myOptions);
+    var marker = new google.maps.Marker({position:latlon,map:map,title:"You are here!"});        
 //        
 //        
 //        var latlon = pos.coords.latitude + "," + pos.coords.longitude;
